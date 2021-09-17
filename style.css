@@ -46,14 +46,9 @@ h5 {
     color: grey;
     text-align: center;
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.popvids {
-    padding-left: 12px;
-    position: absolute;
 }
 
 a {
@@ -74,7 +69,7 @@ a:hover {
     text-align: center;
     width: 25vw;
     top: 50vh;
-    left: 6vw;
+    left: 6.5vw;
 }
 
 .about-me {
@@ -85,7 +80,7 @@ a:hover {
     text-align: center;
     width: 25vw;
     top: 50vh;
-    left: 36vw;
+    left: 36.5vw;
 }
 
 .contact {
@@ -96,16 +91,39 @@ a:hover {
     text-align: center;
     width: 25vw;
     top: 50vh;
-    left: 66vw;
+    left: 66.5vw;
 }
 
 .footer {
     text-align: center;
-    padding: 3px;
+    padding: 1vw;
     background-color: darkred;
     color: white;
-    top: 50vh;
+    top: 10vh;
     opacity: 75%;
     position: relative;
     font-weight: 1000;
+}
+
+.muut {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.comment {
+    color: grey;
+    font-size: 1vw;
+    text-align: center;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.siteprogress {
+    color: black;
+    margin-left: 1vw;
 }
