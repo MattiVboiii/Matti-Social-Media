@@ -98,3 +98,14 @@ a:hover {
     top: 50vh;
     left: 66vw;
 }
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darkred;
+    color: white;
+    top: 50vh;
+    opacity: 75%;
+    position: relative;
+    font-weight: 1000;
+}
