@@ -4,6 +4,11 @@ html {
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
     scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 h1 {
@@ -14,13 +19,16 @@ h3 {
     margin: 0;
 }
 
-p {
-    margin: 2.5px;
+h4 {
+    margin: 3px;
 }
 
 h5 {
     margin: 0;
-    font-size: 10px;
+}
+
+p {
+    margin: 2.5px;
 }
 
 .banner-image {
@@ -69,7 +77,7 @@ a:hover {
     text-align: center;
     width: 25vw;
     top: 50vh;
-    left: 6.5vw;
+    left: 7vw;
 }
 
 .about-me {
@@ -80,7 +88,7 @@ a:hover {
     text-align: center;
     width: 25vw;
     top: 50vh;
-    left: 36.5vw;
+    left: 37vw;
 }
 
 .contact {
@@ -91,7 +99,7 @@ a:hover {
     text-align: center;
     width: 25vw;
     top: 50vh;
-    left: 66.5vw;
+    left: 67vw;
 }
 
 .footer {
@@ -123,9 +131,26 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
-.siteprogress {
+.info {
     color: black;
-    margin-left: 1vw;
+    margin: 1vw;
+    font-size: 1.25vw;
+}
+
+.info a {
+    color: black;
+    margin: 1vw;
+}
+
+.info a:hover {
+    color: red;
+    margin: 1vw;
+}
+
+.images {
+    position: absolute;
+    top: 105vh;
+    left: 75vw;
 }
 
 #menuToggle {
