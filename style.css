@@ -20,7 +20,7 @@ h3 {
 }
 
 h4 {
-    margin: 3px;
+    margin: 0;
 }
 
 h5 {
@@ -134,17 +134,24 @@ a:hover {
 .info {
     color: black;
     margin: 1vw;
+    margin-left: 1.5vw;
     font-size: 1.25vw;
 }
 
 .info a {
     color: black;
-    margin: 1vw;
+    margin: 0vw;
 }
 
 .info a:hover {
     color: red;
-    margin: 1vw;
+    margin: 0vw;
+}
+
+.info p {
+    margin-right: 30vw;
+    margin-bottom: 3vh;
+    font-style: italic;
 }
 
 .images {
