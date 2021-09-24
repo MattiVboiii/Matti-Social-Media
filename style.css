@@ -107,10 +107,9 @@ a:hover {
     padding: 1vw;
     background-color: darkred;
     color: white;
-    top: 10vh;
+    top: 15vh;
     opacity: 75%;
     position: relative;
-    font-weight: 1000;
 }
 
 .muut {
@@ -154,10 +153,16 @@ a:hover {
     font-style: italic;
 }
 
-.images {
+.djmattilogo {
     position: absolute;
     top: 105vh;
     left: 75vw;
+}
+
+.mvlogo {
+    position: absolute;
+    top: 140vh;
+    left: 80vw;
 }
 
 #menuToggle {
